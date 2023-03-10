@@ -1,0 +1,31 @@
+.wrapper {
+  margin: 0 auto;
+  padding-top: 5px;
+  width: 550px;
+  border-radius: 10px;
+  background-color: grey;
+}
+.title {
+  text-align: center;
+  margin: 30px 0;
+  font-size: 38px;
+  color: #fff;
+}
+.list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.item {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.text1 {
+  font-size: 25px;
+}
+.text2 {
+  font-size: 40px;
+}

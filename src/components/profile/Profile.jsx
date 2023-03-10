@@ -11,21 +11,21 @@ const Profile = ({ username, tag, location, avatar, stats }) => (
     </div>
 
     <ul className="stats">
-      <li>
+      <li className="profile-item">
         <span className="label">
           Followers
           <img src={stats.tick} alt="user tick" className="imgStats" />
         </span>
         <span className="quantity">{stats.followers}</span>
       </li>
-      <li>
+      <li className="profile-item">
         <span className="label">
           Views
           <img src={stats.eye} alt="user eye" className="imgStats" />
         </span>
         <span className="quantity">{stats.views}</span>
       </li>
-      <li>
+      <li className="profile-item">
         <span className="label">
           Likes
           <img src={stats.heart} alt="user tick" className="imgStats" />

@@ -1,0 +1,34 @@
+.red {
+  align-items: center;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  background-color: red;
+  border-radius: 50%;
+}
+.green {
+  align-items: center;
+  align-self: center;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  border-radius: 50%;
+}
+.friend-item {
+  margin-bottom: 30px;
+  width: 700px;
+  padding: 20px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 2px 3px 4px black;
+}
+.friend-avatar {
+  border-radius: 20px;
+  align-items: center;
+  align-self: center;
+}
+.friend-name {
+  align-items: center;
+  align-self: center;
+  font-size: 40px;
+}
